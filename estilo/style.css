@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+:root {
+   --font01: "Poppins", sans-serif
+
+
+}
+
+
+
+
+
+
+
+
+body{
+   margin: 0px;
+   padding: 0px;
+   background-image: url('imagens/img.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+   position: relative;
+}
+
+    header {
+    background-image: url('imagens/img3.png');
+    background-size: cover ;
+    background-attachment: fixed;
+    background-position: bottom right;
+    
+    
+    margin-top: 0px;
+    height: 200px;
+
+      
+}
+
+ header h1{
+    color: rgb(252, 252, 252);
+    margin: 0px;
+    text-align: center;
+    padding-top: 10px;
+ }
+ 
+ header p {
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 10px;
+
+ }
+
+   
+   nav a{
+    color: rgb(240, 248, 255);
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 0px;
+  
+  
+
+ }
+
+
+ main {
+   margin-top: -20px;
+   background-color: rgba(240, 248, 255, 0);
+  
+ }
+
+ section h2{
+   text-align: center;
+   padding: 20px;
+    background-color: rgba(240, 248, 255, 0.226);
+    margin-bottom: 0px;
+ }
+ 
+
+
+ section.normal {
+   color: black;
+   margin-top: -20px;
+ }
+
+section#img {
+   background-image: url('imagens/imagem800.jpg');
+   background-attachment: fixed;
+   background-position: top right;
+   background-size: cover;
+   position: relative;
+   margin-top: 0px;
+ }
+
+ section p {
+   background-color: rgba(240, 248, 255, 0.226);
+   margin-top: 0px;
+   font-family: var(--font01);
+   
+   
+ }
+
+
+     
+
+
