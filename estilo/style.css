@@ -26,7 +26,7 @@ body,html {
    height: 100vh;
    margin: 0px;
    padding: 0px;
-   background-color: black;
+   background-color:#fefedb88;
    
 }
 
@@ -93,13 +93,13 @@ body,html {
  }
    
 
- main {
-   height: 100vh;
+ section#normal {
    padding: 0px;
    background-image: url('imagens/img.jpg');
    background-attachment: fixed;
    background-size: cover;
-   position: relative;
+   background-repeat:no-repeat;
+   margin-bottom: 0px;
  
   
  }
@@ -121,10 +121,31 @@ h2 {
    margin: 10px;
    padding: 10px;
    background-color: rgba(211, 211, 211, 0.37);
-   border-radius: 10px;
+   border-radius:10px ;
+   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.507);
+ }
+
+ aside#transparente p {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: justify;
+   text-indent: 10px;
+   line-height: 25px;
+   margin: 10px;
+   padding: 10px;
+   background-color: rgba(255, 251, 251, 0.144);
+   border-radius: 0px 20px ;
+   box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.658);
  }
  
-
+ section#fundo01 {
+   background: url('imagens/imagem.jpg') no-repeat fixed;
+   background-size: cover;
+   background-position: relative;
+ 
+   
+ 
+ }
+ 
      
 
 
