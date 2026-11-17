@@ -115,7 +115,7 @@ h2 {
    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.479);
 }
 
- aside p {
+ article p {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align: justify;
    text-indent: 10px;
@@ -127,7 +127,7 @@ h2 {
    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.507);
  }
 
- aside#transparente p {
+ article#transparente p {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align: justify;
    text-indent: 10px;
