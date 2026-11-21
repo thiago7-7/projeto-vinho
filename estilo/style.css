@@ -21,13 +21,19 @@
 }
 
 
-body,html {
+body, html{
 
    height: 100vh;
    margin: 0px;
    padding: 0px;
-   background-color:#fefedb88;
+   background-color: #fefedb3a;
    
+}
+main{
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+
 }
 
     header {
@@ -36,8 +42,13 @@ body,html {
     background-attachment: fixed;
     background-position: bottom right;
     height: 200px;
-
-      
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    flex: auto;
+    padding: 10px;
+  
+  
 }
 
  header h1{
@@ -60,93 +71,128 @@ body,html {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.664);
     text-align: center;
     padding: 8px;
-    padding-bottom: 50px;
+  
     
 
  }
 
-   menu {
-      margin-top: 40px;
-   }
 
 
-
-     nav a{
+    nav > a {
     color: rgba(255, 255, 255, 0.856);
     text-decoration: none;
-      padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-shadow: 2px 2px 2px black;
-    box-sizing: border-box;
 
-   
+
+
  }
 
- nav a:hover {
+
+
+ nav > a:hover {
    background-color:var(--cor01) ;
    border-radius: 20px;
    color:#FEFEDB ;
    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.658);
    
-   
   
-   
  }
    
 
  section#normal {
-   padding: 0px;
+   padding: 2px;
    background-image: url('imagens/img.jpg');
    background-attachment: fixed;
    background-size: cover;
    background-repeat:no-repeat;
    margin-bottom: 0px;
  
+
+
   
  }
 
+a {
+  text-decoration: none;
+ 
+}
+
+a:hover {
+text-decoration: underline;
+
+
+ 
+}
 
 
 h2 {
   
   color: rgba(0, 0, 0, 0.918);
    padding: 10px;
-   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.479);
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.479);
 }
 
  article p {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: var(--font01);
+   font-weight: ;
    text-align: justify;
    text-indent: 10px;
    line-height: 25px;
    margin: 10px;
    padding: 10px;
-   background-color: rgba(211, 211, 211, 0.37);
+   background-color:  #fefedb65;
    border-radius:10px ;
-   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.507);
+   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.418);
+   color: black;
  }
 
  article#transparente p {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   text-align: justify;
-   text-indent: 10px;
-   line-height: 25px;
-   margin: 10px;
-   padding: 10px;
-   background-color: rgba(255, 251, 251, 0.144);
-   border-radius: 0px 20px ;
-   box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.658);
+   text-align:justify;
+   text-indent:0px;
+   line-height:25px;
+   margin:10px;
+   padding:10px;
+   background-color:#fefedb65;
+   border-radius:10px ;
+   box-shadow:4px 2px 4px rgba(0, 0, 0, 0.658);
  }
  
  section#fundo01 {
-   background: url('imagens/imagem.jpg') no-repeat fixed;
+   background: url('imagens/img1000.jpg') no-repeat fixed;
    background-size: cover;
    background-position: relative;
+   
+   padding: 4px;
  
    
  
  }
+
+ section#fundo2 {
+  background-color: #fefedb52;
+  margin-top: 0px;
+ }
+
+ footer  {
+  background-color:rgba(0, 0, 0, 0.904);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.89);
+  padding: 4px;
+  font-size: 0.8em;
+  width: 100vw;
+ }
+
+ footer > a {
+  color: rgba(255, 255, 255, 0.89) ;
+ }
+
+ footer > a:hover {
+  color: rgba(64, 64, 233, 0.747);
+ }
+
  
      
 
